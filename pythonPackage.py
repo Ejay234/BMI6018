@@ -54,9 +54,9 @@ plt.figure(figsize=(10, 6))
 
 sns.boxplot(data=data, x='age', y='time_in_hospital', palette='muted')
 
-# See figure 2
 plt.title('Box Plot of Time in Hospital by Age Group')
 plt.xlabel('Age Group')
 plt.ylabel('Time in Hospital (days)')
 plt.xticks(rotation=45)
 plt.show()
+# See figure 2, https://github.com/Ejay234/BMI6018/blob/main/seabornFigure2.png

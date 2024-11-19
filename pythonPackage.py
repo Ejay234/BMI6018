@@ -41,12 +41,12 @@ plt.figure(figsize=(10,6))
 sns.countplot(data=data, x="age", palette="viridis")
 
 
-# See figure 1
 plt.title("Distribution of Age Groups in the Dataset")
 plt.xlabel("Age Group")
 plt.ylabel("Count")
 plt.xticks(rotation=45)
 plt.show()
+# See figure 1, https://github.com/Ejay234/BMI6018/blob/main/seabornFigure1.png
 
 # Create a plot using Seaborn
 sns.set_theme(style="whitegrid")

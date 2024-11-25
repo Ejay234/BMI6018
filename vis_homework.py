@@ -69,7 +69,7 @@ plt.grid(True, which="major", linestyle="--")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
-
+# see figure https://github.com/Ejay234/BMI6018/blob/main/vis_fig1.png
 #%% viz 2
 '''
 Create a visualization that shows the contrast between the county in Utah with
@@ -113,6 +113,7 @@ plt.grid(True, linestyle="--")
 plt.xticks(rotation=45,)
 plt.tight_layout()
 plt.show()
+# see figure https://github.com/Ejay234/BMI6018/blob/main/vis_fig2.png
 
 #%% viz 3
 '''
@@ -159,7 +160,7 @@ plt.tight_layout()
 
 fig.legend(loc="upper left", bbox_to_anchor=(0.1, 0.9))
 plt.show()
-
+# see figure https://github.com/Ejay234/BMI6018/blob/main/vis_fig3.png
 #%% viz 4
 '''
 Create a visualization that shows a stacked bar chart of county contributions
@@ -190,6 +191,7 @@ ax.legend(loc="upper right")
 
 plt.tight_layout()
 plt.show()
+# see figure https://github.com/Ejay234/BMI6018/blob/main/vis_fig4.png
 
 #%% extra credit (5 points)
 '''
@@ -230,4 +232,4 @@ plt.ylabel("Cases")
 plt.xticks(rotation=90)
 plt.tight_layout()
 plt.show()
-    
+# see figure https://github.com/Ejay234/BMI6018/blob/main/vis_fig5.png

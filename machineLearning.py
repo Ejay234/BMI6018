@@ -41,6 +41,7 @@ plt.show()
 # The elbow plot shows a significant  drop in SEE from 1 to 3
 # After 3, the decrease slows down, which indicates diminishing returns for adding more clusters
 # Hence, k=3 is chosen as the optimal number
+# See plot: https://github.com/Ejay234/BMI6018/blob/main/elbow_plot.png
 
 # Set the optimal number
 optimal_k = 3
@@ -72,3 +73,4 @@ plt.show()
 # The scatter plot shows three distinct clusters with their centroids marked with an "X"
 # Each cluster represents a group of data points that are closer to their respective centeroids
 # This clustering aligns with the elbow method's suggestion of k = 3
+# See plot: https://github.com/Ejay234/BMI6018/blob/main/clusters_with_centroids.png
